@@ -1,0 +1,15 @@
+.carousel-inner{
+    width: 10%;
+    max-height: 955vh ;
+}
+.carousel-item{
+    position: absolute;
+}
+.temp-logo{
+    position: absolute;
+    z-index: 1;
+}
+.template-main-menu{
+    position: absolute;
+    z-index: 1;
+}
