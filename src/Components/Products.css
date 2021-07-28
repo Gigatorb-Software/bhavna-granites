@@ -1,0 +1,41 @@
+
+.modal-header{
+    /* background-color: black; */
+    /* position: relative;
+    width:550px;
+    height: 460px;
+    background-color: black; */
+} 
+
+
+
+.containerImg{
+    position: relative; 
+    width:450px;
+
+
+}
+
+.imgs{
+position: absolute;
+object-fit: cover;
+}
+
+.btn{
+    position: absolute;
+    margin-left: 430px;
+    margin-top: 145px;
+    background-color: khaki;
+
+    
+}
+
+
+
+
+
+
+
+
+
+
