@@ -6,7 +6,7 @@ import './css/fontawesome-all.min.css'
 import './css/font/flaticon.css';
 import './css/style.css';
 import logo1 from '../logo1.jpg';
-import logo3 from '../gigatorb_logo.png';
+// import logo3 from '../gigatorb_logo.png';
 import './css/personalised.css';
 const Disp=()=>{ 
         return (
@@ -139,7 +139,7 @@ const Disp=()=>{
                 </div>
             </div>
         </footer>
-        <p><img src={logo3} alt="logo" class="img-fluid logo"></img>     WebSite Designed by Gigatorb Software Pvt. Ltd.</p>
+        <p><img src="" alt="logo" class="img-fluid logo"></img>     WebSite Designed by Gigatorb Software Pvt. Ltd.</p>
         </section>
         </>);
 };

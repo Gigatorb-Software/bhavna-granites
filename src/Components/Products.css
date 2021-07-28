@@ -1,0 +1,35 @@
+
+
+
+
+
+.containerImg{
+    position: relative; 
+    width:450px;
+
+
+}
+
+.imgs{
+position: absolute;
+object-fit: cover;
+}
+
+.btn{
+    position: absolute;
+    margin-left: 430px;
+    margin-top: 145px;
+    background-color: khaki;
+
+    
+}
+
+
+
+
+
+
+
+
+
+

@@ -4,6 +4,7 @@ import img1 from './floor5.jpg';
 import img2 from './kitchen5.jpg';
 import img3 from './bathroom5.jpg';
 import './Hello.css';
+import Products from "./Components/Products"
 
 
 const Hello
