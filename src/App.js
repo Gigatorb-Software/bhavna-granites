@@ -13,10 +13,11 @@ import '../node_modules/bootstrap/dist/js/bootstrap.bundle';
 // import '../src/Components/css/rt-canvas-menu.css';
 // import '../src/Components/css/swiper.min.css';
 // import '../src/Components/css/style.css';
-import Products from './Components/Products'
-import Disp from './Components/Disp'
-
-
+import Products from './Components/Products.js';
+import Disp from './Components/Disp.js';
+import 'react-sticky-header/styles.css';
+import reactRouterDom from 'react-router-dom'
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import './App.css';
 
@@ -24,6 +25,13 @@ function App() {
   return (
 
     <div class="App">
+      <Router>
+        <Switch>
+          <Route exact path='/'>
+            <Hello />
+          </Route>
+        </Switch>
+      </Router>
       <Hello />
       <Products />
       <Disp />
