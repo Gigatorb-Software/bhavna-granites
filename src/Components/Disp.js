@@ -5,13 +5,13 @@ import './css/bootstrap.min.css';
 import './css/fontawesome-all.min.css'
 import './css/font/flaticon.css';
 import './css/style.css';
-import logo1 from '../logo1.jpg';
-// import logo3 from '../gigatorb_logo.png';
+import logo1 from './logo2.jpg';
+import logo3 from './gigatorb2_logo.jpg';
 import './css/personalised.css';
 const Disp=()=>{ 
         return (
         <> 
-        <section class="inner-page-banner bg-common inner-page-margin  Contitle" data-bg-image="img/figure/banner.jpg">
+        <section id="contact" class="inner-page-banner bg-common inner-page-margin  Contitle" data-bg-image="img/figure/banner.jpg">
             <div class="container ">
                 <div class="row">
                     <div class="col-12">
@@ -91,14 +91,15 @@ const Disp=()=>{
                                 <div className="footer-links">
                                     <ul>
                                         <li>
-                                            <a href="index.html">Home</a>
+                                            <a href="index.html">HOME</a>
                                         </li>
                                         <li>
-                                            <a href="about1.html">About Us</a>
+                                            <a href="about1.html">ABOUT US</a>
                                         </li>
                                         <li>
-                                            <a href="single-portfolio1.html">Products</a>
+                                            <a href="single-portfolio1.html">PRODUCTS</a>
                                         </li>
+                                                                               
                                     </ul>
                                 </div>
                                 <ul class="footer-social">
@@ -139,7 +140,7 @@ const Disp=()=>{
                 </div>
             </div>
         </footer>
-        <p><img src="" alt="logo" class="img-fluid logo"></img>     WebSite Designed by Gigatorb Software Pvt. Ltd.</p>
+        <p><img src={logo3} alt="logo3" class="img-fluid logo"></img>     WebSite Designed by Gigatorb Software Pvt. Ltd.</p>
         </section>
         </>);
 };

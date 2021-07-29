@@ -66,10 +66,10 @@ import whiteGalaxy  from './white-galaxy.jpg';
 const Products=()=>{
     return(
         <>
-         <section className="portfolio-wrap-layout2">
+         <section id="products" className="portfolio-wrap-layout2">
             <div className="container">
                 <div className="section-heading text-center heading-dark heading-layout2">
-                    <h2>Feature works</h2>
+                    <h2 >Feature works</h2>
                     <div className="item-subtitle">Made with Passion</div>
                 </div>
                 <div className="row">

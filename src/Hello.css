@@ -1,15 +1,56 @@
 .carousel-inner{
-    width: 10%;
-    max-height: 955vh ;
+    width: 5%;
+    max-height: 98vh  ;
 }
 .carousel-item{
-    position: absolute;
+    position: relative;
+    
 }
 .temp-logo{
-    position: absolute;
-    z-index: 1;
+    position: relative;
+    
 }
-.template-main-menu{
-    position: absolute;
+/* .template-main-menu{
+    position: relative;
+    
+    z-index: 99999;
+    
+} */
+/* .row no-gutters{
+    padding: 5px 5px;
+    cursor:pointer;
+    color:#FFF;
+    font-size:1em;
+    border-radius:2px;
+    border:1px solid #bbb;
+    transition: all 0.3s linear;
     z-index: 1;
+} */
+/* .StickyHeader {  
+    position: sticky;
+    top: 20px;
+  } */
+.template-main-menu {
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    height: 10.3%;
+    display: initial;
+    right: 0;
+    left: 30;
+    
+}
+.temp-logo{
+    position: fixed;
+    padding: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 10%;
+    height: 10%;
+    display: initial;
+    
+}
+.container1{
+    padding-top: 70px;
+    padding-bottom: 50px;
+    background-color: rgb(255, 252, 221);
 }
