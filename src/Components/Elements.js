@@ -1,10 +1,6 @@
 import React from "react";
 import { BsArrowRight } from 'react-icons/bs';
 
-import absoluteBlack from './absolute-black.jpg';
-import almondPearl from './almond-pearl.jpg';
-import appleGreen from './apple-green.jpg';
-import balticBrown from './baltic-brown.jpg';
 
 
 const Elements=(props)=>{
