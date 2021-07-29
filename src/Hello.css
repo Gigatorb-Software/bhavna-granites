@@ -10,26 +10,6 @@
     position: relative;
     
 }
-/* .template-main-menu{
-    position: relative;
-    
-    z-index: 99999;
-    
-} */
-/* .row no-gutters{
-    padding: 5px 5px;
-    cursor:pointer;
-    color:#FFF;
-    font-size:1em;
-    border-radius:2px;
-    border:1px solid #bbb;
-    transition: all 0.3s linear;
-    z-index: 1;
-} */
-/* .StickyHeader {  
-    position: sticky;
-    top: 20px;
-  } */
 .template-main-menu {
     position: fixed;
     background-color: rgb(255, 255, 255);
