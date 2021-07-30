@@ -18,8 +18,8 @@ const Products=()=>{
          <section id="products" className="portfolio-wrap-layout2">
             <div className="container">
                 <div className="section-heading text-center heading-dark heading-layout2">
-                    <h2 >Feature works</h2>
-                    <div className="item-subtitle">Made with Passion</div>
+                    <h2 >Products</h2>
+                    <div className="item-subtitle"></div>
                 </div>
                 <div className="row">
                 <MappingImg />
