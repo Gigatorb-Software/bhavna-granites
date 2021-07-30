@@ -143,147 +143,147 @@ export const CaraouselArray=[
     {
         url:exoticJuparana ,
         title:"Exotic Juparana" ,
-        slide:19
+        slide:18
     },
     {
         url:fishBlack ,
         title:"Fish Black" ,
-        slide:20
+        slide:19
     },
     {
         url:fishBrown ,
         title:" Fish Brown" ,
-        slide:21
+        slide:20
     },
     {
         url:greenPearl ,
         title:" Green Pearl",
-        slide:22
+        slide:21
     },
     {
         url:hassanGreen ,
         title:"Hassan Green",
-        slide:23
+        slide:22
     },
     {
         url:imprialRed ,
         title:"Imperial Red",
-        slide:24
+        slide:23
     },
     {
         url:imprialWhite ,
         title:"Imperial White",
-        slide:25
+        slide:24
     },
     {
         url:jemred ,
         title:"Jam Red",
-        slide:26
+        slide:25
     },
     {
         url:jhansiRed ,
         title:"Jhansi Red",
-        slide:27
+        slide:26
     },
     {
         url:kashmiriWhite ,
         title:"Kashmiri White",
-        slide:28
+        slide:27
     },
     {
         url:lakhaRed ,
         title:"Lakha Red",
-        slide:29
+        slide:28
     },
     {
         url:marigold ,
         title:"Marigold",
-        slide:30
+        slide:29
     },
     {
         url:markeno ,
         title:"Markeno",
-        slide:31
+        slide:30
     },
     {
         url:merryGreen ,
         title:"Merry Green",
-        slide:32
+        slide:31
     },
     {
         url:merryWood ,
         title:"Merry Wood",
-        slide:33
+        slide:32
     },
     {
         url:pWhite ,
         title:"P White",
-        slide:34
+        slide:33
     },
     {
         url:pablesBlack ,
         title:"Pables Black",
-        slide:35
+        slide:34
     },
     {
         url:rajsthanBlack ,
         title:"Rajasthan Black",
-        slide:36
+        slide:35
     },
     {
         url:redMulti ,
         title:"Red Multi",
-        slide:37
+        slide:36
     },
     {
         url:rosaPearl ,
         title:"Rosa Pearl",
-        slide:38
+        slide:37
     },
     {
         url:rosaliya ,
         title:"Rosaliya",
-        slide:39
+        slide:38
     },
     {
         url:rosyPink ,
         title:"Rosy Pink",
-        slide:40
+        slide:39
     },
     {
         url:royalCream ,
         title:"Royal Cream",
-        slide:41
+        slide:40
     },
     {
         url:tenBrown ,
         title:"Ten Brown",
-        slide:42
+        slide:41
     },
     {
         url:tropicalGold ,
         title:"Tropical Gold",
-        slide:43
+        slide:42
     },
     {
         url:tropicanaBlueL ,
         title:"Tropicana Blue Lapato",
-        slide:44
+        slide:43
     },
     {
         url:tropicanaBlue ,
         title:"Tropicana Blue",
-        slide:45
+        slide:44
     },
     {
         url:volgaBlue ,
         title:"Volga Blue",
-        slide:46
+        slide:45
     },
     {
         url:whiteGalaxy ,
         title:"White Galaxy",
-        slide:47
+        slide:46
     },
 
 

@@ -36,7 +36,7 @@ const Products=()=>{
         <div className="modal-content non-radius non-border">
            
             <div className="modal-header non-border">
-                <button type="button" className="close" data-bs-dismiss="modal" aria-hidden="true"><BsFillXCircleFill/></button>
+                <button type="button" className="close" data-bs-dismiss="modal" aria-hidden="true"><BsFillXCircleFill size={20} color={"white"}/></button>
                 <h4 className="modal-title"></h4>
             </div>
             <div className="modal-body" >
@@ -45,18 +45,18 @@ const Products=()=>{
 <div  className="carousel-inner" data-bs-ride="false"  >
     <div className="carousel-item active ">
         <img src={absoluteBlack} className="display-block w-100" alt="Image1"/>
-        <div class="caption carousel-caption d-none d-md-block">
-          <h5 className='captions'>Absolute Black </h5>
+        <div className="caption carousel-caption d-none d-md-block " >
+                <h5 className="modalText" >Absolute Black </h5>
         </div>
     </div>
 <MappingCaraousels/>    
 
 </div>
-<button className="carousel-control-prev" type="button" data-bs-target="#test-popup1" data-bs-slide="prev">
+<button className="carousel-control-prev" id="controls" type="button" data-bs-target="#test-popup1" data-bs-slide="prev">
     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
     <span className="visually-hidden">Previous</span>
   </button>
-  <button className="carousel-control-next" type="button" data-bs-target="#test-popup1" data-bs-slide="next">
+  <button className="carousel-control-next " type="button" data-bs-target="#test-popup1" data-bs-slide="next">
     <span className="carousel-control-next-icon" aria-hidden="true"></span>
     <span className="visually-hidden">Next</span>
   </button>

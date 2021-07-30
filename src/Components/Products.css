@@ -1,4 +1,4 @@
-
+/* 
 
 
 
@@ -6,6 +6,7 @@
 .containerImg{
     position: relative; 
     width:450px;
+
 
 
 }
@@ -19,23 +20,76 @@ object-fit: cover;
     position: absolute;
     margin-left: 430px;
     margin-top: 145px;
-    background-color: khaki;
 
     
 }
+ */
+ .modal-header{
+     background-color:rgba(0, 0, 0, 0.719) ;
+     opacity: 1;
+     border-bottom: none !important;
+     display: none !important;
+ }
 
- .carousel-item h5{
-color: White;
-font-size: 20px;
+ .modal-dialog{
+    max-width: 100% !important;
+    width:600px !important;
+
+
+
+ }
+ .modal-body{
+     background-color: rgb(8, 0, 0);
+ }
+
+
+
+ .close{
+     /* background-color: white !important; */
+ }
+
+
+
+
+ .carousel-caption {
+    background-color:black;
+    max-width: 100%;
+      width:100%;
+      left:0!important;
+      bottom: 0 !important;
+      opacity: .7;
+
+  }
+
+
+
+  .carousel-caption h5{
+      
+      color: white;
+      font-size: 25px;
+
+  }
+
+  .carousel-control-prev-icon{
+        background-color: black;
+        width:100px !important;
+        height: 70px !important;
+        opacity: .7;
+
+}
+
+.carousel-control-next-icon{
+        background-color: black;
+        width:100px !important;
+        height: 70px !important;
+        opacity: .7;
+
 }
 
 
 
 
 
-
-
-
-
-
-
+  
+  
+ 

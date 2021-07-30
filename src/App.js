@@ -25,13 +25,13 @@ function App() {
   return (
 
     <div class="App">
-      <Router>
+      {/* <Router>
         <Switch>
           <Route exact path='/'>
             <Hello />
           </Route>
         </Switch>
-      </Router>
+      </Router> */}
       <Hello />
       <Products />
       <Disp />
