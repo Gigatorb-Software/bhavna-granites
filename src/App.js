@@ -13,13 +13,7 @@ function App() {
   return (
 
     <div class="App">
-      <Router>
-        <Switch>
-          <Route exact path='/'>
-            <Hello />
-          </Route>
-        </Switch>
-      </Router>
+      
       <Hello />
       <Products />
       <Disp />

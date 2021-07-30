@@ -1,10 +1,11 @@
 import React from 'react';
-import logo from './logo3.png';
+import logo from './logo6_1.png';
 import img1 from './floor5.jpg';
 import img2 from './kitchen5.jpg';
 import img3 from './bathroom5.jpg';
 import './Hello.css';
-import Products from "./Components/Products"
+import Products from "./Components/Products";
+import'./Components/css/astyle.css'
 import StickyHeader from 'react-sticky-header';
 import Disp from "./Components/Disp";
 
@@ -101,7 +102,7 @@ const Hello
         <div class="breadcrumbs-area">
                 <div className="section-heading text-center heading-dark heading-layout2">
                     <h2>About Us</h2>
-                    <div className="text">Granite is a light-colored igneous rock with grains large enough to be visible with the unaided eye. It forms from the slow crystallization of magma below Earth's surface. Granite is composed mainly of quartz and feldspar with minor amounts of mica, amphiboles, and other minerals.</div>
+                    <div className="text">Our Company provides top quality Granites to suit your needs with our wide range of selections of natural stones <br></br>of otherworldly design which becomes a feast for your eyes. Our comapany(est.    ) has been providing satisfactory services<br></br> to our customers</div>
                 </div>
                 </div>
                 </div>

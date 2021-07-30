@@ -6659,7 +6659,7 @@ header.header {
 =========================================================================*/
 .inner-page-banner {
   display: block;
-  padding: 10rem 0;
+  padding: 8rem 0;
 }
 .inner-page-banner .breadcrumbs-area {
   position: relative;
@@ -9386,14 +9386,14 @@ body.fp-responsive .section {
   }
 }
 .main-footer-wrap-layout1 {
-  padding: 10rem 0 5.5rem;
+  padding: 1rem 0 0.5rem;
 }
 .footer-bottom-wrap {
   padding: 40px 0px;
   border-top: 1px solid #373737;
 }
 .footer-box-layout1 {
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
 }
 @media only screen and (max-width: 767px) {
   .footer-box-layout1 {
@@ -9401,7 +9401,7 @@ body.fp-responsive .section {
   }
 }
 .footer-box-layout1 .footer-logo {
-  margin-bottom: 3.5rem;
+  margin-bottom: 1rem;
 }
 .footer-box-layout1 .footer-logo a {
   display: block;

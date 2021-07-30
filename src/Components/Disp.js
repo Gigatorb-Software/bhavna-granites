@@ -4,8 +4,8 @@ import './css/main.css';
 import './css/bootstrap.min.css';
 import './css/fontawesome-all.min.css'
 import './css/font/flaticon.css';
-import './css/style.css';
-import logo1 from './logo2.jpg';
+import './css/astyle.css';
+import logo1 from './logo6_2.png';
 import logo3 from './gigatorb2_logo.jpg';
 import './css/personalised.css';
 import './Disp.css';
@@ -73,7 +73,7 @@ const Disp=()=>{
                             <div className="footer-box-layout1">
                                 <div className="footer-logo">
                                     <a href="index.html">
-                                        <img src={logo1} alt="logo" className="img-fluid"></img>
+                                        <img src={logo1} alt="logo" className="img-fluid" id="footer-loo"></img>
                                     </a>
                                 </div>
                                 <div className="footer-contact-info">
@@ -138,11 +138,11 @@ const Disp=()=>{
                                 </ul>
                             </div>
                         </div>
+                        <p id = "end-note">WebSite Designed by Gigatorb Software Pvt. Ltd. with ❤️</p>
                     </div>
                 </div>
             </div>
         </footer>
-        <p>WebSite Designed by Gigatorb Software Pvt. Ltd.</p>
         </section>
         </>);
 };
