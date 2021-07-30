@@ -19,6 +19,7 @@
     right: 0;
     left: 30;
     
+    
 }
 .temp-logo{
     position: fixed;
@@ -33,4 +34,12 @@
     padding-top: 70px;
     padding-bottom: 50px;
     background-color: rgb(255, 252, 221);
+}
+.header-links a{
+    text-decoration: none;
+    /* underline: {textDecorationLine: 'underline'} */
+    /* text-underline-offset: initial; */
+}
+.header-links a:hover{
+    text-decoration: underline;
 }
