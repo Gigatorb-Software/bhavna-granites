@@ -25,10 +25,9 @@ object-fit: cover;
 }
  */
  .modal-header{
-     background-color:rgba(0, 0, 0, 0.719) ;
-     opacity: 1;
-     border-bottom: none !important;
-     display: none !important;
+     background-color:black;
+     border-bottom: 1px double white !important;
+     height: 4px;
  }
 
  .modal-dialog{
@@ -41,13 +40,6 @@ object-fit: cover;
  .modal-body{
      background-color: rgb(8, 0, 0);
  }
-
-
-
- .close{
-     /* background-color: white !important; */
- }
-
 
 
 
