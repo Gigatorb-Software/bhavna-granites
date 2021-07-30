@@ -66,11 +66,11 @@ const Hello
             
                 <div class="container-fluid">
                     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                        {/* <div class="carousel-indicators">
+                        <div class="carousel-indicators">
                             <button  data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
                             <button  data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="slide"></button>
                             <button  data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"  class="slide"></button>
-                        </div> */}
+                        </div>
                     <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img class="d-block w-100" src={img1} alt="First slide" />
@@ -83,11 +83,11 @@ const Hello
                             </div>
                     </div>
                     <button class="carousel-control-prev" role="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        {/* <span class="carousel-control-prev-icon" aria-hidden="true"></span> */}
                         <span class="sr-only">Previous</span>
                     </button>
                     <button class="carousel-control-next" role="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        {/* <span class="carousel-control-next-icon" aria-hidden="true"></span> */}
                         <span class="sr-only">Next</span>
                     </button>
                     </div>

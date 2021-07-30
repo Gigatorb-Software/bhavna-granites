@@ -142,7 +142,7 @@ const Disp=()=>{
                 </div>
             </div>
         </footer>
-        <p className="Contitle3"><img src={logo3} alt="logo3" className="img-fluid logo"></img>     WebSite Designed by Gigatorb Software Pvt. Ltd.</p>
+        <p>WebSite Designed by Gigatorb Software Pvt. Ltd.</p>
         </section>
         </>);
 };
