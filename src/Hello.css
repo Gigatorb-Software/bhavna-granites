@@ -1,10 +1,15 @@
 .carousel-inner{
     width: 5%;
-    max-height: 98vh  ;
+    max-height: 99vh;
 }
 .carousel-item{
     position: relative;
     
+}
+.carousel-inner .carousel-item .kit-img{
+    object-fit: fill !important;
+    width: 100% !important;
+    height: 700px !important;
 }
 .temp-logo{
     position: relative;

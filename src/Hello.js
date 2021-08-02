@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo6_1.png';
 import img1 from './floor5.jpg';
-import img2 from './kitchen5.jpg';
+import img2 from './kitchen6.jpeg';
 import img3 from './bathroom5.jpg';
 import './Hello.css';
 import Products from "./Components/Products";
@@ -73,8 +73,8 @@ const Hello
                             <button  data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"  class="slide"></button>
                         </div>
                     <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img class="d-block w-100" src={img2} alt="First slide" />
+                            <div class="carousel-item active ">
+                                <img className="d-block w-100 kit-img" src={img2} alt="First slide" />
                             </div>
                             <div class="carousel-item">
                                 <img class="d-block w-100" src={img1} alt="Second slide" />
@@ -102,7 +102,7 @@ const Hello
         <div class="breadcrumbs-area">
                 <div className="section-heading text-center heading-dark heading-layout2">
                     <h2>About Us</h2>
-                    <div className="text">Our Company provides top quality Granites to suit your needs with our wide range of selections of natural stones <br></br>of otherworldly design which becomes a feast for your eyes. Our comapany(est.    ) has been providing satisfactory services<br></br> to our customers</div>
+                    <div className="text">Bhavna Granites provides top quality Granites to suit your needs with our wide range of selections of natural stones of<br></br>otherworldly design which becomes a feast for your eyes. Our comapany has been providing satisfactory services<br></br> to our customers</div>
                 </div>
                 </div>
                 </div>
