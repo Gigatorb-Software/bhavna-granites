@@ -27,39 +27,30 @@ const Disp=()=>{
         <section className="contact-page-wrap Contitle1 ">
                 <div className="contact-method-area">
                     <div className="row">
-                        <div className="col-md-3 col-sm-6">
+                        <div className="col-md-4 col-sm-8">
                             <div className="contact-list">
                                 <h5 className="item-title">Address:</h5>
                                 <ul>
-                                    <li>59 Street, loseagne, Newyork</li>
-                                    <li>Road City</li>
+                                    <li>E 138 A RIICO INDUSTRIAL AREA AJOLIYA KA KHERA</li>
+                                    <li>CHITTORGARH 312001</li>
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-md-3 col-sm-6">
+                        <div className="col-md-4 col-sm-8">
                             <div className="contact-list">
                                 <h5 className="item-title">Phone:</h5>
                                 <ul>
-                                    <li>+123 977 015 902</li>
-                                    <li>+123 977 015 902</li>
+                                    <li>+91 9649427725</li>
+                                    <li>+91 8058273426</li>
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-md-3 col-sm-6">
+                        <div className="col-md-4 col-sm-8">
                             <div className="contact-list">
                                 <h5 className="item-title">E-mail:</h5>
                                 <ul>
-                                    <li>info@gmail.com</li>
-                                    <li>info@gmail.com</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="col-md-3 col-sm-6">
-                            <div className="contact-list">
-                                <h5 className="item-title">Fax:</h5>
-                                <ul>
-                                    <li>+59 987 065 009</li>
-                                    <li>+59 987 065 009</li>
+                                    <li>dimplebaser@gmail.com</li>
+                                    <li>bhavanagranitesllp@gmail.com</li>
                                 </ul>
                             </div>
                         </div>
@@ -77,12 +68,11 @@ const Disp=()=>{
                                     </a>
                                 </div>
                                 <div className="footer-contact-info">
-                                    <p>For World className granites ,Give us call or drop an email, Interaction between us gets things done you know
-                                    </p>
+                                    <p>Give us call or drop an email, Interaction between us gets things done you know!!</p>
                                     <ul>
-                                        <li>info@zugan.com</li>
-                                        <li>+ 88 222 02020</li>
-                                        <li>+ 5960 550000</li>
+                                        <li>bhavanagranitesllp@gmail.com</li>
+                                        <li>+91 9649427725</li>
+                                        <li>+91 8058273426</li>
                                     </ul>
                                 </div>
                             </div>
@@ -117,22 +107,7 @@ const Disp=()=>{
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <i className="fab fa-behance"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i className="fab fa-dribbble"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
                                             <i className="fab fa-linkedin-in"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i className="fab fa-google-plus-g"></i>
                                         </a>
                                     </li>
                                 </ul>
