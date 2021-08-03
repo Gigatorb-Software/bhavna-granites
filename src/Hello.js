@@ -1,8 +1,8 @@
 import React from 'react';
 import logo from './logo6_m1.png';
 import img1 from './floor5.jpg';
-import img2 from './kitchen5.jpg';
-import img3 from './bathroom5.jpg';
+import img2 from './kitchen5_1.jpg';
+import img3 from './bathroom5_1.jpg';
 import './Hello.css';
 import Products from "./Components/Products";
 import'./Components/css/astyle.css'
@@ -73,14 +73,14 @@ const Hello
                             <button  data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"  class="slide"></button>
                         </div>
                     <div class="carousel-inner">
-                            <div class="carousel-item active ">
-                                <img className="d-block w-100 kit-img" src={img2} alt="First slide" />
+                            <div class="carousel-item active">
+                                <img className="d-block w-100 kit-img" id="im" src={img2} alt="First slide" />
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src={img1} alt="Second slide" />
+                                <img class="d-block w-100 kit-img" id="im" src={img1} alt="Second slide" />
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src={img3} alt="Third slide" />
+                                <img class="d-block w-100 kit-img" id="im" src={img3} alt="Third slide" />
                             </div>
                     </div>
                     <button class="carousel-control-prev" role="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
