@@ -5,7 +5,7 @@ import './css/bootstrap.min.css';
 import './css/fontawesome-all.min.css'
 import './css/font/flaticon.css';
 import './css/astyle.css';
-import logo1 from './logo6_2.png';
+import logo1 from './logo_222.png';
 import logo3 from './gigatorb2_logo.jpg';
 import './css/personalised.css';
 import './Disp.css';

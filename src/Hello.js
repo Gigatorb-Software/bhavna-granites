@@ -1,7 +1,7 @@
 import React from 'react';
-import logo from './logo6_1.png';
+import logo from './logo_222.png';
 import img1 from './floor5.jpg';
-import img2 from './kitchen6.jpeg';
+import img2 from './kitchen5.jpg';
 import img3 from './bathroom5.jpg';
 import './Hello.css';
 import Products from "./Components/Products";
@@ -102,7 +102,7 @@ const Hello
         <div class="breadcrumbs-area">
                 <div className="section-heading text-center heading-dark heading-layout2">
                     <h2>About Us</h2>
-                    <div className="text">Bhavna Granites provides top quality Granites to suit your needs with our wide range of selections of natural stones of<br></br>otherworldly design which becomes a feast for your eyes. Our comapany has been providing satisfactory services<br></br> to our customers</div>
+                    <div className="text">Bhavana Granites provides top quality Granites to suit your needs with our wide range of selections of natural stones of<br></br>otherworldly design which becomes a feast for your eyes. Our comapany has been providing satisfactory services<br></br> to our customers</div>
                 </div>
                 </div>
                 </div>
