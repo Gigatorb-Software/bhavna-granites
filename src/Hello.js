@@ -47,7 +47,10 @@ const Hello
                                             <a href="#products">Products</a>
                                         </li>
                                         
-                                        
+                                        <li>
+                                            <a href="#quotes">Quotes</a>
+                                        </li>
+
                                         <li>
                                             <a href="#contact">CONTACT US</a>
                                         </li>

@@ -47,6 +47,7 @@ const Products=()=>{
         <img src={absoluteBlack} className="display-block w-100" alt="Image1"/>
         <div className="caption carousel-caption d-none d-md-block " >
                 <h5 className="modalText" >Absolute Black </h5>
+                <button type="button" className='btn btn-secondary btn-lg'>Quotes</button>
         </div>
     </div>
 <MappingCaraousels/>    

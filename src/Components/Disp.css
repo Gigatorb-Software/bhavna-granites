@@ -3,9 +3,10 @@ ul li{
 }
 .Contitle{
 max-width:1340px ;
-
-
-
+}
+textarea::placeholder{
+    color:rgba(255,255,255,1);
+    font-size:1.8rem;
 }
 .Contitle1{
 

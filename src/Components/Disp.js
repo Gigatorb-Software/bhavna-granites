@@ -60,7 +60,7 @@ const Disp=()=>{
             <div className="main-footer-wrap-layout1">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-6 Alleft">
+                        <div className="col-md-4 Alleft">
                             <div className="footer-box-layout1">
                                 <div className="footer-logo">
                                     <a href="index.html">
@@ -77,7 +77,7 @@ const Disp=()=>{
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-4">
                             <div className="footer-box-layout1">
                             <h3 className="footer-title">Useful Links</h3>
                                 <div className="footer-links">
@@ -113,7 +113,40 @@ const Disp=()=>{
                                 </ul>
                             </div>
                         </div>
-                        <p id = "end-note">WebSite Designed by Gigatorb Software Pvt. Ltd. with ❤️</p>
+                        <div id="quotes" className="col-md-4">
+                            <div className="footer-box-layout1">
+                            <h3 class="footer-title">Quote</h3>
+                                <form class="footer-form-box">
+                                    <div class="row">
+                                        <div class="col-12 form-group">
+                                            <input type="text" placeholder="Enter your Name" class="form-control" name="name" data-error="Name field is required"
+                                                required></input>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                        <div class="col-12 form-group">
+                                            <input type="email" placeholder="Enter your e-mail" class="form-control" name="email" data-error="e-mail field is required"
+                                                required></input>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                        <div class="col-12 form-group">
+                                            <input type="text" placeholder="Enter your Phone Number" class="form-control" name="contact" data-error="contact field is required"
+                                                required></input>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                        <div class="col-12 form-group">
+                                            <textarea rows="4" cols="60" class="form-control" placeholder="Message" name="message" data-error="Message field is required"
+                                                required>Message</textarea>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                        <div class="col-12 form-group">
+                                            <button type="submit" class="item-btn">SUBMIT</button>
+                                        </div>
+                                    </div>
+                                    <div class="form-response"></div>
+                                </form>
+                            </div>
+                        </div>
+                        <p id = "end-note">Website Designed by Gigatorb Software Pvt. Ltd. with ❤️</p>
                     </div>
                 </div>
             </div>
