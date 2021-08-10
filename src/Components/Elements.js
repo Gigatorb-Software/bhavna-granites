@@ -19,7 +19,7 @@ const Elements=(props)=>{
             </div>
         <div className="item-content">
                  <h3 className="item-title">
-                 <a href="single-portfolio1.html">{props.Title} </a>
+                 {props.Title} 
                  </h3>
         
         </div>

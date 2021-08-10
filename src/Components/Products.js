@@ -10,6 +10,7 @@ import MappingImg from "./MappingImg";
 import MappingCaraousels from "./MappingCaraousel";
 import { BsFillXCircleFill } from 'react-icons/bs';
 import absoluteBlack from './absolute-black.jpg';
+import Disp from './Disp';
 
 
 const Products=()=>{
@@ -47,7 +48,10 @@ const Products=()=>{
         <img src={absoluteBlack} className="display-block w-100" alt="Image1"/>
         <div className="caption carousel-caption d-none d-md-block " >
                 <h5 className="modalText" >Absolute Black </h5>
-                <button type="button" className='btn btn-secondary btn-lg'>Quotes</button>
+                <a href='#quotes'>
+               <div  data-bs-dismiss="modal">
+                <button  className='btn btn-secondary btn-lg' type="button">Quotes
+                </button></div></a>
         </div>
     </div>
 <MappingCaraousels/>    
