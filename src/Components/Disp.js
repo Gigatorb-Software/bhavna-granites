@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './css/normalize.css';
 import './css/main.css';
 import './css/bootstrap.min.css';
@@ -9,8 +9,61 @@ import logo1 from './logo6_m1.png';
 import logo3 from './gigatorb2_logo.jpg';
 import './css/personalised.css';
 import './Disp.css';
+import { render } from '@testing-library/react';
 
-const Disp=()=>{ 
+
+export default class Disp extends Component{
+
+    constructor (props){
+        super(props)
+        this.state={
+            // Name: '',
+            // emailID: '',
+            // Phone:'',
+            // Message:''
+            
+        }
+        this.sendemail = this.sendemail.bind(this);
+    }
+    sendemail = (event) =>{
+        event.preventDefault();
+            const Name = document.getElementById('name');
+            const Email = document.getElementById('email');
+            const Phone = document.getElementById('phone');
+            const Message = document.getElementById('message');
+
+            const endpoint ="https://hlelhuk06d.execute-api.ap-south-1.amazonaws.com/default/sendContactEmail"
+
+            const data = JSON.stringify({
+                name: Name.value,
+                phone: Phone.value,
+                email: Email.value,
+                desc: Message.value
+            })
+            console.log(data);
+            const requestOptions = {
+                method: "POST",
+                data
+              };
+            
+              fetch(endpoint, requestOptions)
+                .then((response) => {
+                  if (!response.ok) throw new Error("Error in fetch");
+                  return response.json();
+                })
+                .then((response) => {
+                 // document.getElementById("result-text").innerText =
+                   // "Email sent successfully!";
+                   console.log("email sent")
+                })
+                .catch((error) => {
+                  //document.getElementById("result-text").innerText =
+                    //"An unkown error occured.";
+                    console.log(error)
+                });
+          }
+
+    render(){
         return (
         <> 
         <section id="contact" className="inner-page-banner bg-common inner-page-margin  Contitle" data-bg-image="img/figure/banner.jpg">
@@ -119,27 +172,27 @@ const Disp=()=>{
                                 <form class="footer-form-box">
                                     <div class="row">
                                         <div class="col-12 form-group">
-                                            <input type="text" placeholder="Enter your Name" class="form-control" name="name" data-error="Name field is required"
+                                            <input type="text" placeholder="Enter your Name" class="form-control" id="name" name="name" data-error="Name field is required"
                                                 required></input>
                                             <div class="help-block with-errors"></div>
                                         </div>
                                         <div class="col-12 form-group">
-                                            <input type="email" placeholder="Enter your e-mail" class="form-control" name="email" data-error="e-mail field is required"
+                                            <input type="email" placeholder="Enter your e-mail" class="form-control" id="email" name="email" data-error="e-mail field is required"
                                                 required></input>
                                             <div class="help-block with-errors"></div>
                                         </div>
                                         <div class="col-12 form-group">
-                                            <input type="text" placeholder="Enter your Phone Number" class="form-control" name="contact" data-error="contact field is required"
+                                            <input type="text" placeholder="Enter your Phone Number" class="form-control" id="phone" name="contact"  data-error="contact field is required"
                                                 required></input>
                                             <div class="help-block with-errors"></div>
                                         </div>
                                         <div class="col-12 form-group">
-                                            <textarea rows="4" cols="60" class="form-control" placeholder="Message" name="message" data-error="Message field is required"
+                                            <textarea rows="4" cols="60" class="form-control" placeholder="Message" id="message" name="message" data-error="Message field is required"
                                                 required>Message</textarea>
                                             <div class="help-block with-errors"></div>
                                         </div>
                                         <div class="col-12 form-group">
-                                            <button type="submit" class="item-btn">SUBMIT</button>
+                                            <button type="submit" class="item-btn" onClick={this.sendemail}>SUBMIT</button>
                                         </div>
                                     </div>
                                     <div class="form-response"></div>
@@ -152,7 +205,7 @@ const Disp=()=>{
             </div>
         </footer>
         </section>
-        </>);
+        </>)};
 };
  
-export default Disp;    
+   
