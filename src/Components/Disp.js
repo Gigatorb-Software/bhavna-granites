@@ -14,54 +14,93 @@ import { render } from '@testing-library/react';
 
 export default class Disp extends Component{
 
-    constructor (props){
-        super(props)
-        this.state={
-            // Name: '',
-            // emailID: '',
-            // Phone:'',
-            // Message:''
-            
-        }
-        this.sendemail = this.sendemail.bind(this);
+ //   constructor (props){
+ //       super(props)
+ //       this.state={
+ //           // Name: '',
+ //           // emailID: '',
+ //           // Phone:'',
+ //           // Message:''
+ //           
+ //       }
+ //       this.sendemail = this.sendemail.bind(this);
+ //       
+ //   }
+ //   sendemail = (event) =>{
+ //       event.preventDefault();
+ //           const Name = document.getElementById('name');
+ //           const Email = document.getElementById('email');
+ //           const Phone = document.getElementById('phone');
+ //           const Message = document.getElementById('message');
+//
+ //           const endpoint ="https://izrzb3vzi9.execute-api.ap-south-1.amazonaws.com/default/sendContactEmail"
+//
+ //           const data =JSON.stringify({
+ //               name: Name.value,
+ //               phone: Phone.value,
+ //               email: Email.value,
+ //               desc: Message.value
+ //           })
+ //           console.log(data);
+ //           const requestOptions = {
+ //               method: "POST",
+ //               data
+ //             };
+ //           
+ //           fetch(endpoint, data)
+ //             .then((response) => {
+ //               if (!response.ok) throw new Error("Error in fetch");
+ //               return response.json();
+ //             })
+ //             .then((response) => {
+ //              // document.getElementById("result-text").innerText =
+ //                // "Email sent successfully!";
+ //                console.log("email sent")
+ //             })
+ //             .catch((error) => {
+ //               //document.getElementById("result-text").innerText =
+ //                 //"An unkown error occured.";
+ //                 console.log(error)
+ //             });
+ //         }
+//
+
+componentDidMount(){
+    const form = document.querySelector('form')
+        form.addEventListener('submit', event => {
+          // prevent the form submit from refreshing the page
+          event.preventDefault()
+        
+          const { name, email, contact, message } = event.target;
+
+          // Use your API endpoint URL you copied from the previous step
+        const endpoint =
+          "https://izrzb3vzi9.execute-api.ap-south-1.amazonaws.com/default/sendContactEmail";
+        // We use JSON.stringify here so the data can be sent as a string via HTTP
+          const body = JSON.stringify({
+          senderName: name.value,
+          senderEmail: email.value,
+          message: message.value,
+          contact: contact.value
+        });
+        const requestOptions = {
+          method: "POST",
+          body
+        };
+      
+        fetch(endpoint, requestOptions)
+          .then((response) => {
+            if (!response.ok) throw new Error("Error in fetch");
+            return response.json();
+          })
+          .then((response) => {
+            console.log("Email sent successfully!");
+          })
+          .catch((error) => {
+              console.log("An unkown error occured.");
+          });
+        })
     }
-    sendemail = (event) =>{
-        event.preventDefault();
-            const Name = document.getElementById('name');
-            const Email = document.getElementById('email');
-            const Phone = document.getElementById('phone');
-            const Message = document.getElementById('message');
-
-            const endpoint ="https://hlelhuk06d.execute-api.ap-south-1.amazonaws.com/default/sendContactEmail"
-
-            const data = JSON.stringify({
-                name: Name.value,
-                phone: Phone.value,
-                email: Email.value,
-                desc: Message.value
-            })
-            console.log(data);
-            const requestOptions = {
-                method: "POST",
-                data
-              };
-            
-              fetch(endpoint, requestOptions)
-                .then((response) => {
-                  if (!response.ok) throw new Error("Error in fetch");
-                  return response.json();
-                })
-                .then((response) => {
-                 // document.getElementById("result-text").innerText =
-                   // "Email sent successfully!";
-                   console.log("email sent")
-                })
-                .catch((error) => {
-                  //document.getElementById("result-text").innerText =
-                    //"An unkown error occured.";
-                    console.log(error)
-                });
-          }
 
     render(){
         return (
@@ -183,7 +222,7 @@ export default class Disp extends Component{
                                         </div>
                                         <div class="col-12 form-group">
                                             <input type="text" placeholder="Enter your Phone Number" class="form-control" id="phone" name="contact"  data-error="contact field is required"
-                                                required></input>
+                                                required></input> 
                                             <div class="help-block with-errors"></div>
                                         </div>
                                         <div class="col-12 form-group">
@@ -192,7 +231,8 @@ export default class Disp extends Component{
                                             <div class="help-block with-errors"></div>
                                         </div>
                                         <div class="col-12 form-group">
-                                            <button type="submit" class="item-btn" onClick={this.sendemail}>SUBMIT</button>
+                                            {/* <button type="submit" class="item-btn" onClick={this.sendemail}>SUBMIT</button> */}
+                                            <input className="item-btn" type="submit"/>
                                         </div>
                                     </div>
                                     <div class="form-response"></div>
