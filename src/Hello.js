@@ -48,7 +48,7 @@ const Hello
                                         </li>
                                         
                                         <li>
-                                            <a href="#quotes">Quotes</a>
+                                            <a href="#quotes">Quote</a>
                                         </li>
 
                                         <li>

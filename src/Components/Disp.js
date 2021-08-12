@@ -83,6 +83,10 @@ componentDidMount(){
           message: message.value,
           contact: contact.value
         });
+        name.value="";
+        email.value="";
+        message.value="";
+        contact.value="";
         const requestOptions = {
           method: "POST",
           body
@@ -95,9 +99,13 @@ componentDidMount(){
           })
           .then((response) => {
             console.log("Email sent successfully!");
+            document.getElementById("result-text").innerText =
+              "Quote sent successfully!";
           })
           .catch((error) => {
               console.log("An unkown error occured.");
+              document.getElementById("result-text").innerText =
+              "An unkown error occured.";
           });
         })
     }
@@ -233,6 +241,9 @@ componentDidMount(){
                                         <div class="col-12 form-group">
                                             {/* <button type="submit" class="item-btn" onClick={this.sendemail}>SUBMIT</button> */}
                                             <input className="item-btn" type="submit"/>
+                                        </div>
+                                        <div class="col-12 form-group">
+                                        <p id="result-text"></p>
                                         </div>
                                     </div>
                                     <div class="form-response"></div>

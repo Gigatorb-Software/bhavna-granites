@@ -30,3 +30,7 @@ textarea::placeholder{
 #end-note{
     color: white;
 }
+
+#result-text{
+    color: white
+}
